@@ -1,16 +1,14 @@
 body {
  background color:rgb(5,4,4);
 }
-header {
-  grid-area: header;
-}
+
 main{
   font-family: Verdana;
-  grid-area: main;
 }
+
 article li {
   display: grid;
-  grid-template-rows: 20px 20px 20px
+  grid-template-areas: 20px 20px 20px
 
 }
 
@@ -18,10 +16,10 @@ article li {
       color: #F1C40F;
 }
 #geography h3 {
-  color: rgb(40,180,99);
+color: rgb(40,180,99); 
 }
 
-#introduction  {
+#introduction {
    color: rgb(40,180,99);
 }
 
@@ -36,6 +34,9 @@ article li {
 
 #economy {
     color: #F1C40F;
+}
+#economy h3{
+  color: rgb(40,180,99);
 }
 
 #wrapper {
