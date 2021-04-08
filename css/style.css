@@ -1,0 +1,45 @@
+body {
+ background color:rgb(5,4,4);
+}
+header {
+  grid-area: header;
+}
+main{
+  font-family: Verdana;
+  grid-area: main;
+}
+article li {
+  display: grid;
+  grid-template-rows: 20px 20px 20px
+
+}
+
+#geography {
+      color: #F1C40F;
+}
+#geography h3 {
+  color: rgb(40,180,99);
+}
+
+#introduction  {
+   color: rgb(40,180,99);
+}
+
+#people-and-society {
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+   color: rgb(40,180,99);
+}
+#people-and-society h2 {
+  grid-column: 1/4;
+}
+
+#economy {
+    color: #F1C40F;
+}
+
+#wrapper {
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
