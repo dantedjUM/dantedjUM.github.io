@@ -1,26 +1,38 @@
 body {
- background color:rgb(5,4,4);
+ background-color: #070605;
 }
 
 main{
-  font-family: Verdana;
+  font-family: "Verdana","Helvetica", sans-serif;
 }
 
-article li {
-  display: grid;
+li {
+  padding: 5px;
+  border: 1px;
+  margin: 0 30px;
   grid-template-areas: 20px 20px 20px
 
+}
+
+h1 {
+  color: rgb(40,180,99);
+}
+
+nav ol {
+  padding-left: 0px;
+  list-style-type: none;
 }
 
 #geography {
       color: #F1C40F;
 }
 #geography h3 {
-color: rgb(40,180,99); 
+color: rgb(40,180,99);
 }
 
 #introduction {
    color: rgb(40,180,99);
+   background color: #ddd535;
 }
 
 #people-and-society {
@@ -37,10 +49,29 @@ color: rgb(40,180,99);
 }
 #economy h3{
   color: rgb(40,180,99);
-}
 
+}
+#economy li{
+  padding: 3px;
+  border: 1px;
+  margin: 0 30px;
+}
+article ol{
+  display: inline-block;
+  padding: 10px;
+}
 #wrapper {
 width: 960px;
 margin-left: auto;
 margin-right: auto;
+}
+
+a {
+  color: rgb(40,180,99)
+}
+nav a:visited{
+  color: #06247c;
+}
+nav a:hover{
+  color: #06247c;
 }
